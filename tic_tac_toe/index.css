@@ -1,11 +1,12 @@
+/* apply a global font family to the entire document */
 body {
     font-family: "Arial", sans-serif;
 }
-
+/* Center-align the text in sections for a clean layout */
 section {
     text-align: center;
 }
-
+/* style for individual game cells (tic-tac-toe grid) */
 .cell {
     font-family: "Permanent Marker", cursive;
     width: 100px;
@@ -16,13 +17,13 @@ section {
     line-height: 100px;
     font-size: 60px;
 }
-
+/* style for the game title */
 .game--title {
     font-size: 100px;
     color: #d7a62f;
     margin: 10px auto;
 }
-
+/*container for the tic-tac-toe grid*/
 .game--container {
     display: grid;
     grid-template-columns: repeat(3, auto);
@@ -31,13 +32,13 @@ section {
     background-color: #11213a;
     color: #04c0b2;
 }
-
+/* Status display */
 .game--status {
     font-size: 50px;
     color: #d7a62f;
     margin: 20px auto;
 }
-
+/* restart button styling */
 .game--restart {
     background-color: #f7e4ac;
     width: 200px;
